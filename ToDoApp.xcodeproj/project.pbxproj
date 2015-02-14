@@ -14,6 +14,7 @@
 		5233EA2E1A9002F400CAFEDA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5233EA2D1A9002F400CAFEDA /* Images.xcassets */; };
 		5233EA311A9002F400CAFEDA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5233EA2F1A9002F400CAFEDA /* LaunchScreen.xib */; };
 		5233EA3D1A9002F500CAFEDA /* ToDoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5233EA3C1A9002F500CAFEDA /* ToDoAppTests.swift */; };
+		5233EA471A90052100CAFEDA /* TaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5233EA461A90052100CAFEDA /* TaskManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		5233EA361A9002F500CAFEDA /* ToDoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5233EA3B1A9002F500CAFEDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5233EA3C1A9002F500CAFEDA /* ToDoAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoAppTests.swift; sourceTree = "<group>"; };
+		5233EA461A90052100CAFEDA /* TaskManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				5233EA2D1A9002F400CAFEDA /* Images.xcassets */,
 				5233EA2F1A9002F400CAFEDA /* LaunchScreen.xib */,
 				5233EA221A9002F400CAFEDA /* Supporting Files */,
+				5233EA461A90052100CAFEDA /* TaskManager.swift */,
 			);
 			path = ToDoApp;
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 			files = (
 				5233EA291A9002F400CAFEDA /* SecondViewController.swift in Sources */,
 				5233EA251A9002F400CAFEDA /* AppDelegate.swift in Sources */,
+				5233EA471A90052100CAFEDA /* TaskManager.swift in Sources */,
 				5233EA271A9002F400CAFEDA /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
